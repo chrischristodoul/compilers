@@ -8,6 +8,8 @@ It takes `.gr` source files as input and performs:
 - Intermediate Code Generation (quads)
 - Final Code Generation in **RISC-V Assembly**
 - Scoped Symbol Table Construction
+- also an intepreter to know the final number readings for every variable
+- debuging with specific order
 
 ---
 
@@ -18,4 +20,4 @@ It takes `.gr` source files as input and performs:
 
 ### Run the compiler:
 ```bash
-python CODE/greek_5371.py EXAMPLES/sample.gr
+python CODE/greek_5392_5371.py 
